@@ -1,0 +1,49 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<table>
+<tr>
+<td>
+<form method="POST" action="runme.cgi">
+Enter your program below (up/down scrolling is permitted, avoid left/right scrolling) <br/ >
+<textarea name="program" rows="20" cols="40" wrap="soft">
+</textarea> <br/ >
+<input type="submit"> <br/ >
+</form>
+</td>
+
+<td>
+<table>
+<tr>
+<th>Valid Commands:</th><th> What it does: </th>
+</tr>
+<tr>
+<td>INSERT <i>value, string</i></td><td>Adds <i>string</i> to the tree at the places determined by <i>value</i>. Nothing needs to be displayed. The <i>value</i> is an integer after the space after INSERT and the <i>string</i> is after ther comma  until the end of the line.</td>
+</tr>
+<tr>
+<td>PREORDER</td><td>displays the contents of entire tree across the screen as a table with two rows using a <i>preorder traversal</i>.  The first row contains the value and the second row contains the strings.  (You'll likely need separate routines to print each row)   </td>
+</tr>
+<tr>
+<td>INORDER</td><td>displays the contents of entire tree across the screen as a table with two rows using an <i>inorder traversal</i>.  The first row contains the value and the second row contains the strings.  (You'll likely need separate routines to print each row)   </td>
+</tr>
+<tr>
+<tr>
+<td>POSTORDER</td><td>displays the contents of entire tree across the screen as a table with two rows using an <i>postorder traversal</i>.  The first row contains the value and the second row contains the strings.  (You'll likely need separate routines to print each row)   </td>
+</tr>
+<tr><td colspan="2">Any other commands will display that an invalid command was entered, the command will be displayed and exit the program.
+</td></tr>
+<tr>
+<td>PRINT</td><td><b>EXTRA CREDIT, OPTIONAL</b> displays the contents of entire tree so it look like the tree really looks.  You can limit yourself to 10 levels.  You might consider using the HTMLTable class you wrote earlier in the semester. Arrows aren't necessary, but are extra nice.  Sideways is ok too. </td>
+</tr>
+
+</table>
+
+
+
+</td></tr>
+
+</body>
+</html>
